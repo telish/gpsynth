@@ -1,0 +1,16 @@
+name: gpsynth
+channels:
+  - defaults
+dependencies:
+  - pyaudio
+  - python=3.7
+  - pip
+  - pip:
+    - gpy
+    - matplotlib
+    - tqdm
+    - librosa
+    - pytest
+    - pyqt5
+
+
